@@ -12,8 +12,14 @@ Install homebrew: https://brew.sh/
 
 ## Generic
 
-Install stow (brew install stow / apt-get install stow)
+Install stow, tmux
 
+```bash
+# Mac:
+brew install stow tmux
+# Debian/Ubuntu
+apt-get install stow tmux
+```
 Get the dotfiles with stow:
 
 ```
