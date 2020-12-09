@@ -12,6 +12,10 @@ Install homebrew: https://brew.sh/
 
 ## Generic
 
+Install gvm, then install binary go (as otherwise there is a bootstrapping issue): `gvm install go1.15 -B && gvm use go1.15 --default`.
+
+git@github.com:lesam/telegraf.git
+
 Install stow, tmux
 
 ```bash
