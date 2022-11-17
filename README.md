@@ -10,6 +10,8 @@ Upgrade to latest OS and install developer tools (run `git --help` at a terminal
 
 Install homebrew: https://brew.sh/
 
+Install pyenv to replace system python with python3
+
 ## Generic
 
 Install gvm, then install binary go (as otherwise there is a bootstrapping issue): `gvm install go1.15 -B && gvm use go1.15 --default`.
