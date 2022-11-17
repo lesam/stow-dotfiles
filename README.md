@@ -10,6 +10,8 @@ Upgrade to latest OS and install developer tools (run `git --help` at a terminal
 
 Install homebrew: https://brew.sh/
 
+Install pyenv to replace system python with python3
+
 ## Generic
 
 Install stow (brew install stow / apt-get install stow)

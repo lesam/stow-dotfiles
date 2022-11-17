@@ -1,0 +1,4 @@
+[alias]
+	l = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	pr  = "!f() { git fetch -fu $(git remote | grep ^upstream || echo origin) refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
