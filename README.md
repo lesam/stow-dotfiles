@@ -8,9 +8,9 @@ Install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 Upgrade to latest OS and install developer tools (run `git --help` at a terminal and it will prompt to install tools).
 
-Install homebrew: https://brew.sh/
+Install homebrew: https://brew.sh/ (brew will not be on the PATH yet, this is ok)
 
-Install pyenv to replace system python with python3
+Install pyenv to replace system python with python3 (install with brew)
 
 ## Generic
 
